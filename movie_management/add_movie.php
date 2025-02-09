@@ -1,6 +1,7 @@
 <?php
 include 'connect.php';
 
+
 $successMessage = ""; 
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
