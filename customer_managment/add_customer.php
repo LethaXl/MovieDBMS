@@ -14,7 +14,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         exit;
     }
     $dob = $dob->format('d-M-Y');  
-
     
     if (!$dob) {
         echo "Error formatting the date.";
