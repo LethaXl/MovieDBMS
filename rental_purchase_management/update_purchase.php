@@ -2,6 +2,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 'On');
 
+
 include 'connect.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
